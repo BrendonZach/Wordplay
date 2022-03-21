@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WordPlay.swift
 //  Wordplay
 //
 //  Created by Brendon Zach on 3/21/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WordPlay: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

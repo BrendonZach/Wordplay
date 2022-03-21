@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4E42765327E90314000DBAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42765227E90314000DBAEE /* AppDelegate.swift */; };
 		4E42765527E90314000DBAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42765427E90314000DBAEE /* SceneDelegate.swift */; };
-		4E42765727E90314000DBAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42765627E90314000DBAEE /* ViewController.swift */; };
 		4E42765A27E90314000DBAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E42765827E90314000DBAEE /* Main.storyboard */; };
 		4E42765C27E90315000DBAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E42765B27E90315000DBAEE /* Assets.xcassets */; };
 		4E42765F27E90315000DBAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E42765D27E90315000DBAEE /* LaunchScreen.storyboard */; };
+		4E42766727E9088F000DBAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42766627E9088F000DBAEE /* ViewController.swift */; };
+		4E42766927E908D4000DBAEE /* WordPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42766827E908D4000DBAEE /* WordPlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E42764F27E90314000DBAEE /* Wordplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E42765227E90314000DBAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E42765427E90314000DBAEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E42765627E90314000DBAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E42765927E90314000DBAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E42765B27E90315000DBAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E42765E27E90315000DBAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E42766027E90315000DBAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E42766627E9088F000DBAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E42766827E908D4000DBAEE /* WordPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				4E42765227E90314000DBAEE /* AppDelegate.swift */,
 				4E42765427E90314000DBAEE /* SceneDelegate.swift */,
-				4E42765627E90314000DBAEE /* ViewController.swift */,
 				4E42765827E90314000DBAEE /* Main.storyboard */,
+				4E42766827E908D4000DBAEE /* WordPlay.swift */,
+				4E42766627E9088F000DBAEE /* ViewController.swift */,
 				4E42765B27E90315000DBAEE /* Assets.xcassets */,
 				4E42765D27E90315000DBAEE /* LaunchScreen.storyboard */,
 				4E42766027E90315000DBAEE /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E42765727E90314000DBAEE /* ViewController.swift in Sources */,
+				4E42766727E9088F000DBAEE /* ViewController.swift in Sources */,
 				4E42765327E90314000DBAEE /* AppDelegate.swift in Sources */,
 				4E42765527E90314000DBAEE /* SceneDelegate.swift in Sources */,
+				4E42766927E908D4000DBAEE /* WordPlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
