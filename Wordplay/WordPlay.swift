@@ -7,13 +7,23 @@
 
 import UIKit
 
-class WordPlay: UIViewController {
-
-    override func viewDidLoad() {
+class WordPlay: UIViewController
+{
+    @IBOutlet weak var secondLabel: UILabel!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
+        secondLabel.text = ""
+        
         // Do any additional setup after loading the view.
+    
     }
+    
+    
+    var wordPass = ""
     
 
     /*
