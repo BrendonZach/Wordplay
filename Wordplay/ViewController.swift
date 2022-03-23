@@ -9,12 +9,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+   
+    @IBOutlet weak var myUncle: UILabel!
+    
+    @IBOutlet weak var clickMe: UIButton!
+    
+    var sendData = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+    let nvc = segue.destination as! WordPlay
+        
+        sendData = textField.text ?? ""
+        
+        if segue.identifier == "buttonSegue"
+        {
+            nvc.takeData = sendData
+            
+            
+            
+        }
+        
+        
+        
+    }
 
     /*
     // MARK: - Navigation

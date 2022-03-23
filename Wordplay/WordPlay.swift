@@ -10,13 +10,15 @@ import UIKit
 class WordPlay: UIViewController
 {
     @IBOutlet weak var secondLabel: UILabel!
-    
+    var takeData = ""
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        
 
-        secondLabel.text = ""
+        secondLabel.text = "My uncle wants to go to the " + takeData + "."
         
         // Do any additional setup after loading the view.
     
