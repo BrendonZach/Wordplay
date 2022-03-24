@@ -18,7 +18,7 @@ class WordPlay: UIViewController
         
         
 
-        secondLabel.text = "My uncle wants to go to the " + takeData + "."
+        secondLabel.text = "My uncle wants to go to the" + takeData + "."
         
         // Do any additional setup after loading the view.
     
